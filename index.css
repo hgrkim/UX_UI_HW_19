@@ -1,0 +1,275 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.navigation{
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+.logoname{
+    margin-bottom: 0px;
+    display:inline-block;
+    justify-content: center;
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 24pt;
+}
+
+p{
+    font-family: Helvetica;
+}
+
+
+
+
+
+.logotitle{
+    margin-top:0px;
+}
+
+.logo img{
+    width: 60px;
+    height: auto;
+    float: left;
+    display: inline-block;
+    padding: 20px 0px 20px 20px
+}
+
+.links{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.links li{
+    display: inline-block;
+}
+
+.links li a{
+    font-family: Helvetica;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.links li.active a{
+    font-weight: bold;
+}
+
+.links li a:hover{
+    font-weight: bold;
+}
+
+
+.work{
+    font-family: Helvetica;
+}
+
+.wfd h1{
+    margin: 0px;
+    color: #EC5550;
+}
+
+.work p{
+    font-size: 10pt;
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.work p a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding-top: 35px;
+    
+}
+
+.wfd p{
+    margin: 0px;
+    padding:0px;
+}
+
+
+
+
+.mt h1{
+    margin: 0px;
+    color: #394762;
+}
+
+
+.wfd{
+    width: 800px;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.wfdtext{
+    position: absolute;
+    right: 350px;
+    top: 250px;
+}
+
+
+
+
+
+
+.mt{
+    width: 800px;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.mttext{
+    position: absolute;
+    right: 350px;
+    top: 550px;
+}
+
+.mt p{
+    width: 350px;
+}
+
+
+
+
+.footereverything{
+    position: relative;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background:white;
+    font-family: Helvetica;
+    float: left;
+    left: 10.35%;
+}
+
+
+
+.contactlinks h3{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top:50px;
+}
+
+.contactlinks li{
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 132%;
+    padding-top: 50px;
+}
+
+
+.text p{
+    margin:0px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    body{
+        margin-left: 0;
+    }
+
+   
+
+    .footereverything{
+        position: relative;
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        background: white;
+        font-family: Helvetica;
+        float: left;
+        left: -40%; 
+    }
+
+    .navigation{
+        max-width: 500px;
+
+    }
+
+    .wfd{
+        padding-top: 50px;
+    }
+
+    .wfd h1{
+        margin: 0px;
+        color: #EC5550;
+    }
+    
+    .work p{
+        font-size: 10pt;
+        width: 400px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .work p a{
+        text-decoration: underline;
+        font-weight: bold;
+        color: black;
+        display: inline-block;
+        padding-top: 35px;
+        padding-bottom: 50px;
+        
+    }
+    
+    .wfd p{
+        margin: 0px;
+        padding:0px;
+    }
+
+    .wfd{
+        width: 800px;
+    }
+    
+    .wfdtext{
+        position: relative;
+        right: 50px;
+        top: 30px;
+    }
+
+
+    .mttext{
+        position: relative;
+        right: 50px;
+        top: 50px;
+    }
+
+
+
+
+    
+}
+

@@ -66,85 +66,6 @@ p{
     font-weight: bold;
 }
 
-
-.work{
-    font-family: Helvetica;
-}
-
-.wfd h1{
-    margin: 0px;
-    color: #EC5550;
-}
-
-.work p{
-    font-size: 10pt;
-    width: 350px;
-    margin: 0px;
-    padding: 0px;
-}
-
-.work p a{
-    text-decoration: underline;
-    font-weight: bold;
-    color: black;
-    display: inline-block;
-    padding-top: 35px;
-    
-}
-
-.wfd p{
-    margin: 0px;
-    padding:0px;
-}
-
-
-
-
-.mt h1{
-    margin: 0px;
-    color: #394762;
-}
-
-
-.wfd{
-    width: 800px;
-    margin-left: 150px;
-    margin-right: auto;
-    margin-top: 100px;
-}
-
-.wfdtext{
-    position: absolute;
-    right: 350px;
-    top: 250px;
-}
-
-
-
-
-
-
-.mt{
-    width: 800px;
-    margin-left: 150px;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.mttext{
-    position: absolute;
-    right: 350px;
-    top: 550px;
-}
-
-.mt p{
-    width: 350px;
-}
-
-
-
-
 .footereverything{
     position: relative;
     width: 800px;
@@ -186,6 +107,176 @@ p{
     margin:0px;
     padding-bottom: 10px;
 }
+
+.splashscreen{
+  position: flex;
+
+}
+
+
+
+.splashscreen {
+    position: fixed;
+    width: 100%;
+    height:100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+  }
+  
+  .splashscreen img {
+    width: 100px;
+    position: fixed;
+    top: 280px;
+    left: 640px;
+  }
+
+
+
+
+
+
+
+
+
+
+.work{
+    font-family: Helvetica;
+    margin-left: 150px;
+    margin-top: 250px;
+    height: 600px;
+}
+
+.work p{
+    font-size: 10pt;
+    width: 350px;
+    margin: 40px;
+    padding: 0px;
+}
+
+.work p a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding-top: 35px;
+    
+}
+
+
+
+
+
+#whatsfordinnertext:hover + #wfdimg {
+    background-image: url("images/wfdicon.png");
+    background-size: 68%;
+    background-repeat:no-repeat;
+}
+
+
+
+#wfdimg {
+    background-image: url("images/wfd.jpg");
+    background-size: 68%;
+    background-repeat:no-repeat;
+    position: relative;
+    top:-250px;
+}
+
+#whatsfordinnertext{
+    position: relative;
+    left: 350px;
+    top: -50px;
+}
+
+#whatsfordinnertext p{
+    margin: 0px;
+    padding:0px;
+}
+
+#whatsfordinnertext h1{
+    margin: 0px;
+    padding:5px 5px 5px 0px;
+    width: 350px;
+    color: #EC5550;
+}
+
+#wfdimg{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mttext:hover + #mtimg {
+    background-image: url("images/my\ trip\ icon.png");
+    background-size: 68%;
+    background-repeat:no-repeat;
+}
+
+#mtimg {
+    background-image: url("images/mt.png");
+    background-size: 68%;
+    background-repeat:no-repeat;
+    position: relative;
+
+}
+
+#mttext{
+    position: relative;
+    left: 350px;
+    top: -160px;
+    width: 350px;
+    padding: 0px;
+}
+
+#mttext p{
+    margin: 0px;
+    padding:0px;
+}
+
+#mttext h1{
+    margin: 0px;
+    padding:5px 5px 5px 0px;
+    width: 350px;
+    color: #394762;
+}
+
+#mtimg{
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    left: 0px;
+    top: -370px;
+    padding:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
@@ -266,6 +357,22 @@ p{
         right: 50px;
         top: 50px;
     }
+
+    .splashscreen {
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        z-index: 100000;
+        background-color: white;
+        top: 0;
+      }
+      
+      .splashscreen img {
+        width: 100px;
+        position: fixed;
+        top: 300px;
+        left: 200px;
+      }
 
 
 
